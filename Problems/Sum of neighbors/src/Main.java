@@ -9,7 +9,7 @@ import static java.util.stream.IntStream.range;
 class Main {
     private static final Pattern SPACE = Pattern.compile("\\s+");
     private static final Pattern NEW_LINE = Pattern.compile("\\R");
-    private static final int[][] OFFSETS = new int[][]{{-1, 0}, {0, 1}, {0, -1}, {0, 1}};
+    private static final int[][] OFFSETS = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
     public static void main(String[] args) {
         final var matrix = new Scanner(System.in)
